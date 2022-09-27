@@ -7,9 +7,22 @@ export default function Home() {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
       </Head>
-      <section className="text-3xl font-bold flex  justify-center 
-      items-center w-screen font-[Poppins]">
-        <div className="cardcss">
+      <section className="mt-4 mx-auto grid grid-rows-auto md:grid-cols-2 gap-5 justify-items-center">
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
+        </div>
+        <div id="card" className="cardcss">
         </div>
       </section>
 

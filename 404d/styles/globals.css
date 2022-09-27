@@ -7,7 +7,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+#card {
+  background-image: url('/images/404webp.webp');
+  background-size: cover;
+  background-position: center;
+}
 .cardcss {
-  @apply bg-gray-400 h-[200px] w-[90vw];
+  @apply bg-gray-400 h-[200px] w-[90vw] md:max-w-[40vw] rounded-sm;
 }
