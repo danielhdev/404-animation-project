@@ -13,5 +13,6 @@
   background-position: center;
 }
 .cardcss {
-  @apply bg-gray-400 h-[200px] w-[90vw] md:max-w-[40vw] rounded-sm;
+  @apply bg-gray-700 bg-blend-multiply h-[200px] w-[90vw] md:max-w-[40vw] 
+  rounded-sm flex justify-end items-end px-5 text-5xl;
 }
