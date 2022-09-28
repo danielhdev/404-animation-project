@@ -7,3 +7,28 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
+#card {
+  background-image: url('/images/404webp.webp');
+  background-size: cover;
+  background-position: center;
+}
+#card1 {
+  background-image: url('/images/frontpug.webp');
+  background-size: cover;
+  background-position: center;
+}
+.cardcss {
+  @apply bg-gray-300 bg-blend-multiply h-[200px] w-[90vw] md:max-w-[40vw] 
+  rounded-sm flex justify-end items-end px-5 text-[3rem] cursor-pointer;
+}
+
+#pugfour {
+  background-color: rgb(153, 153, 153);
+  background-image: url('/images/404-pug-webp.webp');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
