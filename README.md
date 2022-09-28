@@ -2,9 +2,10 @@
 <br/>
 <br/>
 <b>Tech Stack</b>
+<br/>
 NEXT, tailwindcss, Framer - Motion, Three.js
 <br/>
-<b>Current movile<b/>
+<b>Current mobile<b/>
 <br/>
 
 ![get404d 1mobile](https://user-images.githubusercontent.com/105037901/192703061-fd66d88d-7ff4-4392-914e-222d12db0219.gif)
