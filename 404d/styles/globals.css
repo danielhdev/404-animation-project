@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(18, 18, 18);
+  background-color: rgb(29, 29, 29);
 }
 #card {
   background-image: url('/images/404webp.webp');
@@ -20,6 +20,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+#card2 {
+  background-image: url('/images/frontvintage.png');
+  background-size: cover;
+  background-position: center;
+}
 .cardcss {
   @apply bg-gray-300 bg-blend-multiply h-[200px] w-[90vw] md:max-w-[40vw] border-x-2
   rounded-[6%] flex justify-end items-end px-5 text-[3rem] cursor-pointer border-zinc-50;
@@ -28,6 +33,14 @@ body {
 #pugfour {
   background-color: rgb(153, 153, 153);
   background-image: url('/images/404-pug-webp.webp');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+#vintageoops {
+  background-color: rgba(255, 240, 167, 0.3);
+  background-image: url('/images/vintagecrash.webp');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;

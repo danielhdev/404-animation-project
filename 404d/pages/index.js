@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
@@ -15,13 +16,21 @@ export default function Home() {
             A collection of animated 404 pages.</p>
         </article>
         <Link href="http://localhost:3000/pugnotfound">
-          <div id="card1" className="cardcss md:mt-20">
-            <a><h2 className="font-[Anton] text-sky-300">PUG!</h2></a>
-          </div>
+          <motion.div id="card1" className="cardcss md:mt-20"
+            whileHover={{ x: [-5, 2, -12, 0] }}
+            transition={{ duration: 1.5, times: [0.1, 0.2, 0.1, 0.3] }}
+          >
+            <h2 className="font-[Anton] text-sky-300">PUG!</h2>
+          </motion.div>
         </Link>
-        <div id="card" className="cardcss">
-          <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
-        </div>
+        <Link href="http://localhost:3000/vintageoops">
+          <motion.div id="card2" className="cardcss"
+            whileHover={{ y: [-5, 2, -12, 0] }}
+            transition={{ duration: 1.5, times: [0.1, 0.2, 0.1, 0.3] }}
+          >
+            <h2 className="font-[Anton] text-orange-400">VINTAGE!</h2>
+          </motion.div>
+        </Link>
         <div id="card" className="cardcss md:mt-20">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
