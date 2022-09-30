@@ -11,8 +11,8 @@ export default function Home() {
       <section className="mt-[100px] mx-auto grid grid-rows-auto md:grid-cols-2 gap-y-[50px] 
       justify-items-center">
         <article className='flex justify-center items-center'>
-          <p className="font-[Anton] text-[2.5rem] text-zinc-50 text-left">
-            A collection of page <br />not found pages.<br />Get 404d!</p>
+          <p className="font-[Anton] text-[2.5rem] text-zinc-50 text-left px-20 ">
+            A collection of animated 404 pages.</p>
         </article>
         <Link href="http://localhost:3000/pugnotfound">
           <div id="card1" className="cardcss md:mt-20">
