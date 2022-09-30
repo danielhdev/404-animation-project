@@ -26,7 +26,7 @@ body {
   background-position: center;
 }
 .cardcss {
-  @apply bg-gray-300 bg-blend-multiply h-[200px] w-[90vw] md:max-w-[40vw] border-x-2
+  @apply bg-gray-300 bg-blend-multiply h-[250px] w-[90vw] md:h-[400px] md:w-[70vw] border-x-2
   rounded-[6%] flex justify-end items-end px-5 text-[3rem] cursor-pointer border-zinc-50;
 }
 
