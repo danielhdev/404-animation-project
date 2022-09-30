@@ -15,32 +15,32 @@ export default function Home() {
             A collection of page <br />not found pages.<br />Get 404d!</p>
         </article>
         <Link href="http://localhost:3000/pugnotfound">
-          <div id="card1" className="cardcss">
+          <div id="card1" className="cardcss md:mt-20">
             <a><h2 className="font-[Anton] text-sky-300">PUG!</h2></a>
           </div>
         </Link>
         <div id="card" className="cardcss">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
-        <div id="card" className="cardcss">
+        <div id="card" className="cardcss md:mt-20">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
         <div id="card" className="cardcss">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
-        <div id="card" className="cardcss">
+        <div id="card" className="cardcss md:mt-20">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
         <div id="card" className="cardcss">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
-        <div id="card" className="cardcss">
+        <div id="card" className="cardcss md:mt-20">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
         <div id="card" className="cardcss">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
-        <div id="card" className="cardcss">
+        <div id="card" className="cardcss md:mt-20">
           <h2 className="font-[Anton] text-zinc-50">PUG!</h2>
         </div>
       </section>
