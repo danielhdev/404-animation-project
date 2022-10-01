@@ -12,12 +12,12 @@ export default function Home() {
       <section className="mt-[100px] mx-auto grid grid-rows-auto grid-cols-1 gap-y-[50px] 
       md:gap-y-[150px] justify-items-center">
         <article className='flex justify-center items-center'>
-          <p className="font-[Anton] text-[2.5rem] text-zinc-50 text-left px-20 ">
+          <p className="font-[Anton] text-[3rem] text-zinc-50 text-left px-20">
             A collection of animated 404 pages.</p>
         </article>
         <Link href="http://localhost:3000/pugnotfound">
           <motion.div id="card1" className="cardcss"
-            whileHover={{ x: [-5, 2, -12, 0] }}
+            whileHover={{ x: [-5, 2, -8, 0] }}
             transition={{ duration: 1.5, times: [0.1, 0.2, 0.1, 0.3] }}
           >
             <h2 className="font-[Anton] text-sky-300">PUG!</h2>
@@ -25,7 +25,7 @@ export default function Home() {
         </Link>
         <Link href="http://localhost:3000/vintageoops">
           <motion.div id="card2" className="cardcss"
-            whileHover={{ y: [-5, 2, -12, 0] }}
+            whileHover={{ x: [-5, 2, -8, 0] }}
             transition={{ duration: 1.5, times: [0.1, 0.2, 0.1, 0.3] }}
           >
             <h2 className="font-[Anton] text-orange-400">VINTAGE!</h2>
