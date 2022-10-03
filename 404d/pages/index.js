@@ -16,7 +16,7 @@ export default function Home() {
             A collection of animated 404 pages.</p>
         </article>
         <Link href="http://localhost:3000/pugnotfound">
-          <motion.div id="card1" className="cardcss h-[250px] w-[90vw] md:h-[400px] md:w-[60vw] ml-16 md:ml-24"
+          <motion.div id="card1" className="cardcss h-screen w-screen"
             whileHover={{ x: [-5, 2, -8, 0] }}
             transition={{ duration: 1.5, times: [0.1, 0.2, 0.1, 0.3] }}
           >
@@ -24,7 +24,7 @@ export default function Home() {
           </motion.div>
         </Link>
         <Link href="http://localhost:3000/vintageoops">
-          <motion.div id="card2" className="cardcss h-[250px] w-[90vw] md:h-[400px] md:w-[60vw] ml-5 md:ml-10"
+          <motion.div id="card2" className="cardcss h-screen w-screen"
             whileHover={{ x: [-5, 2, -8, 0] }}
             transition={{ duration: 1.5, times: [0.1, 0.2, 0.1, 0.3] }}
           >
